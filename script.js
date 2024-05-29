@@ -2,7 +2,7 @@ function enterFullscreen() {
     const iframe = document.getElementById('fullscreen-iframe');
     
     // Change the iframe source to the desired website
-    iframe.src = "https://haseefmuhammed.github.io/rhm-vote-server/start";
+    iframe.src = "https://haseefmuhammed.github.io/rhm-vote-server/start.html";
 
     // Attempt to enter full screen within the iframe
     if (iframe.requestFullscreen) {
